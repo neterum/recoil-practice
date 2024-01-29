@@ -9,7 +9,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from 'recoil';
-import HobbyInput from './Components/HobbyInput';
+import PersonList from './Components/PersonList';
 
 function App() {
 
@@ -74,7 +74,7 @@ function App() {
     <RecoilRoot>
     <CharacterCounter/>
     <h1>Update Hobbies</h1>
-    <HobbyInput/>
+    <PersonList/>
     </RecoilRoot>
   )
 }
